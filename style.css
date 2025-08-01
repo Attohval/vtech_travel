@@ -90,7 +90,7 @@ h5 {
     color: rgba(29, 108, 192, 0.913);
 }
 .nav-bar .search {
-    font-size: 12px;
+    font-size: 24px;
     color: #fff;
     cursor: pointer;
 }
@@ -98,6 +98,7 @@ h5 {
     display: none;
     font-size: 24px;
     color: #fff;
+    font-weight: bold;
     cursor: pointer;
 }
 /* hero body */
