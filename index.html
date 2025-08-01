@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vtech Travel | Valentine Attoh</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top-bar section">
+            <div>
+                <img class="logo" src="images/logo.png" alt="">
+            </div>
+            <div class="top-bar-right">
+                <div class="loginRegister">
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                </div>
+                <div class="callUs">
+                    <p>Call Us Today<i class="ri-phone-fill phone"></i>(+234)-8068578671</p>
+                </div>
+            </div>
+        </div>
+        <hr class="header-hr">
+        <nav class="nav-bar section">
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="#" id="active-page">HOME</a></li>
+                <li><a href="#">HOTELS</a></li>
+                <li><a href="#">FLIGHTS</a></li>
+                <li><a href="#">CARS</a></li>
+                <li><a href="#">HOT DEALS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <i class="ri-search-line search"></i>
+        </nav>
+        <div class="hero-body section">
+            <h1>Welcome to Vtech Travel</h1>
+            <p>Explore the world with us!</p> 
+            <button class="hero-btn">Start from $220</button>       
+        </div>
+        <div class="hero-main">
+            <div class="hero-main-nav">
+                <a id="active-hmn" href="#"><i id="active-hmn" class="ri-hotel-line hmn-icon "></i>Hotel</a>
+                <a href="#"><i class="ri-flight-takeoff-fill hmn-icon"></i>Flight</a>
+                <a href="#"><i class="ri-car-line hmn-icon"></i>Car</a>
+                <a href="#"><i class="ri-sailboat-line hmn-icon"></i>Cruise</a>
+            </div>
+            <div class="hero-form">
+                <div>
+                    <h5>Where</h5>
+                    <input type="text" placeholder="Where you want to stay">
+                </div>
+                <div>
+                    <h5>Check-in</h5>
+                    <input type="date">
+                </div>
+                <div>
+                    <h5>Check-out</h5>
+                    <input type="date">
+                </div>
+                <div>
+                    <h5>Adults</h5>
+                    <input type="number" placeholder="0">
+                </div>
+                <div>
+                    <h5>Children</h5>
+                    <input type="number" placeholder="0">
+                </div>
+                <div>
+                    <h5>Advance Search</h5>
+                    <button class="search-btn">
+                        <i class="ri-search-line"></i>
+                        Search
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class=" main section">
+        <h2>SPECIAL OFFERS</h2>
+        <div class="star-line"><hr><i class="ri-star-fill"></i><hr></div>
+        <div class="offers-grid-container">
+            <div class="grid-item">
+                <img src="images/img1.jpg" alt="">
+                <h5>Presidential Hotel</h5>
+                <p><i class="ri-map-pin-2-fill"></i>Lagos, Nigeria</p>
+                <div class="price-details">
+                    <p>From <span>$150</span></p>
+                    <p>Details</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="images/img2.jpg" alt="">
+                <h5>Presidential Hotel</h5>
+                <p><i class="ri-map-pin-2-fill"></i>Lagos, Nigeria</p>
+                <div class="price-details">
+                    <p>From <span>$150</span></p>
+                    <p>Details</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="images/img3.jpg" alt="">
+                <h5>Presidential Hotel</h5>
+                <p><i class="ri-map-pin-2-fill"></i>Lagos, Nigeria</p>
+                <div class="price-details">
+                    <p>From <span>$150</span></p>
+                    <p>Details</p>
+                </div>
+            </div>
+        </div>
+        <section class="popularTestimonial">
+            <div class="popular">
+                <div class="popTitle">
+                    <h2>Popular Deals</h2><hr>
+                </div>
+                <div class="popGrid-container">
+                    <div class="popGrid-item">
+                        <img src="images/img1.jpg" alt="">
+                        <h5>Presidential Hotel</h5>
+                        <p><i class="ri-map-pin-2-fill"></i>Lagos, Nigeria</p>
+                        <div class="rating">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i> <br>
+                            <p>1003 reviews</p>
+                        </div>
+                        <div class="price-details">
+                            <p>From <span>$150</span></p>
+                            <p>Details</p>
+                        </div>
+                    </div>
+                    <div class="popGrid-item">
+                        <img src="images/img2.jpg" alt="">
+                        <h5>Presidential Hotel</h5>
+                        <p><i class="ri-map-pin-2-fill"></i>Lagos, Nigeria</p>
+                        <div class="rating">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i> <br>
+                            <p>153 reviews</p>
+                        </div>
+                        <div class="price-details">
+                            <p>From <span>$150</span></p>
+                            <p>Details</p>
+                        </div>
+                    </div>
+                    <div class="popGrid-item">
+                        <img src="images/img3.jpg" alt="">
+                        <h5>Presidential Hotel</h5>
+                        <p><i class="ri-map-pin-2-fill"></i>Lagos, Nigeria</p>
+                        <div class="rating">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i> <br>
+                            <p>1723 reviews</p>
+                        </div>
+                        <div class="price-details">
+                            <p>From <span>$150</span></p>
+                            <p>Details</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="popGrid-container">
+                  <div class="popGrid-item">
+                        <img src="images/img4.jpg" alt="">
+                        <h5>Presidential Hotel</h5>
+                        <p><i class="ri-map-pin-2-fill"></i>Lagos, Nigeria</p>
+                        <div class="rating">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i> <br>
+                            <p>1563 reviews</p>
+                        </div>
+                        <div class="price-details">
+                            <p>From <span>$150</span></p>
+                            <p>Details</p>
+                        </div>
+                    </div>
+                    <div class="popGrid-item">
+                        <img src="images/img5.jpg" alt="">
+                        <h5>Presidential Hotel</h5>
+                        <p><i class="ri-map-pin-2-fill"></i>Lagos, Nigeria</p>
+                        <div class="rating">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i> <br>
+                            <p>973 reviews</p>
+                        </div>
+                        <div class="price-details">
+                            <p>From <span>$150</span></p>
+                            <p>Details</p>
+                        </div>
+                    </div>
+                    <div class="popGrid-item">
+                        <img src="images/img6.png" alt="">
+                        <h5>Presidential Hotel</h5>
+                        <p><i class="ri-map-pin-2-fill"></i>Lagos, Nigeria</p>
+                        <div class="rating">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i><br>
+                            <p>1203 reviews</p>
+                        </div>
+                        <div class="price-details">
+                            <p>From <span>$150</span></p>
+                            <p>Details</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="testimonial">
+                <div class="testTitle">
+                    <h2>Testimonial</h2><hr>
+                </div>
+
+                <i class="ri-double-quotes-l"></i>
+                <p class="test-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam aut delectus voluptate nulla soluta quasi, molestiae optio tempora. Est sit odio facere ipsam labore dolores commodi, cumque exercitationem fuga ex?</p>
+
+                <img class="ceo-image" src="images/my-image.png" alt="">
+                <div class="ceo-details">
+                    <h5>Valentine Attoh</h5>
+                    <p>Founder, Vtech Solutions</p>
+                </div>
+
+            <div class="newsTitle">
+                    <h2>Recent News</h2><hr>
+                </div>
+            <div>
+                <div class="news-item">
+                    <img src="images/city1.jpeg" alt="">
+                    <div>
+                        <h5>Blog Slidshow Post</h5>
+                        <p>Feb 16th 2025</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <img src="images/city2.jpeg" alt="">
+                    <div>
+                        <h5>News Headline</h5>
+                        <p>Feb 16th 2025</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <img src="images/city3.jpeg" alt="">
+                    <div>
+                        <h5>Breaking News</h5>
+                        <p>Feb 16th 2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="" class="">
+        <div class="footer-first-child footer-items">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <h5>VTECH Travel Inc.</h5>
+            <p>123 Somewhere aroud the world, Coding Street</p><br>
+            <p>&copy 2025 All Right Reserved</p>
+        </div>
+        <div class="footer-div footer-items">
+            <h5>CUSTOMER CARE</h5>
+            <a href="#">Make Reservation</a><a href="#">FAQ</a><a href="#">Payment Options</a><a href="#">Booking Tips</a><a href="#">Information</a><a href="#">Hotel Awards</a><a href="#">Press Room</a>
+        </div>
+        <div class="footer-items">
+            <h5>OUR PARTNERS</h5>
+            <a href="#">Asia Rooms</a><a href="#">Easy Booking</a><a href="#">Angle</a><a href="#">Expedia Express</a><a href="#">MoonVail</a><a href="#">Favi Wiz</a><a href="#">Orbitz Travel</a>
+        </div>
+        <div class="footer-items">
+            <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
+            <div class="subscribe">
+                <input type="email" placeholder="Your email here">
+                <button class="subscribe-btn">Submit</button>
+            </div>
+            <h5 class="footer-items">LETS SOCIALIZE</h5>
+            <div class="socials">
+                <a href="#"><i class="ri-facebook-circle-fill s-icon"></i></a>
+                <a href="#"><i class="ri-twitter-fill s-icon"></i></a>
+                <a href="#"><i class="ri-instagram-fill s-icon"></i></a>
+                <a href="#"><i class="ri-linkedin-box-fill s-icon"></i></a>
+                <a href="#"><i class="ri-youtube-fill s-icon"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
