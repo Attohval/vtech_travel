@@ -200,7 +200,7 @@ h2 {
 .grid-item {
     background-color: #dcdada;
 }
-.grid-item:hover {
+.offers-grid-container img:hover {
     scale: 1.05;
     transition: all 0.3s ease-in-out;
     border-radius: 16px;
@@ -392,6 +392,9 @@ footer p {
 
 /* responsive design */
 @media (max-width: 768px) {
+    .callUs {
+        display: none;
+    }
     .menu-toggle {
         display: block;
     }
@@ -440,9 +443,6 @@ footer p {
 }
 
 @media (max-width: 480px) {
-    .callUs {
-        display: none;
-    }
     .hero-body {
         display: flex;
         flex-direction: column;
